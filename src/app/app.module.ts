@@ -7,7 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { ArtistaComponent } from './components/artista/artista.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
-
+import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
 import { RouterModule } from '@angular/router';
 //importar rutas
 import { ROUTES } from './app.routes';
@@ -18,6 +18,7 @@ import {SpotifyService} from './services/spotify.service';
 //pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
-    NoimagePipe
+    NoimagePipe,
+    TarjetaComponent
   ],
   imports: [
     BrowserModule,
