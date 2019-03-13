@@ -15,13 +15,17 @@ import { ROUTES } from './app.routes';
 //servicios
 import {SpotifyService} from './services/spotify.service';
 
+//pipes
+import { NoimagePipe } from './pipes/noimage.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoimagePipe
   ],
   imports: [
     BrowserModule,
