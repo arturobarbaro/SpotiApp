@@ -19,6 +19,7 @@ import {SpotifyService} from './services/spotify.service';
 
 //pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     NavbarComponent,
     NoimagePipe,
     TarjetaComponent,
-    LoadingComponent
+    LoadingComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
